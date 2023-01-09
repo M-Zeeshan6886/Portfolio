@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+.hero{
+    width:100%;
+    height: 100vh;
+    background-color:rgb(0, 0, 0) ;
+    display: flex;
+}
+nav{
+    width: 18%;
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    /* position: fixed; */
+  overflow: auto;
+}
+.logo{
+    color: white;
+    width: 70%;
+    margin-left: 20px;
+    padding-top: 40px;
+    font-size: 45px;
+}
+span{
+    color: gold;
+}
+ul{
+    padding-top: 50px;
+   float: right;
+   padding-right: 4rem;
+   
+}
+ul li{
+    font-size: 20px;
+    padding: 20px 0;
+}
+ul li a{
+    text-decoration: none;
+    color: white; 
+}
+ul li a:hover{
+    color: gold;
+    font-weight: bold;
+}
+ul li a.active{
+   color: gold;
+}
+.menu-icons{
+    margin-top: 0%;
+    /* border: 1px solid white; */
+}
+#menu-icons{
+    width: 20px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+.main-container{
+    width: 80%;
+    height: 65vh;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    margin-top:10%;
+    margin-left: 30px;
+}
+.helw{
+    color: white;
+    font-size:30px ;
+}
+.name{
+ color: white;
+    font-size: 45px;
+    margin-left: 0%;
+}
+.discrption{
+    color: gray;
+    font-size: 20px;
+}
+#img{
+    width: 100%;
+    height: 65vh;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#btn{
+    margin-top: 35px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: gold;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    color: gold;
+    background-color: white;
+}
+/* //form */
+.title{
+    color: white;
+    padding-top: 40px;
+    padding-left: 12em;
+    align-items: center;
+    font-size: 30px;
+}
+#hr{
+    width: 100%;
+    margin-left: 10em;
+    color: gold;
+}
+.title-txt{
+    color: white;
+    padding-top:3px;
+    padding-left: 21rem;
+}
+.mb-3{
+    margin-top: 100px;
+}
+#emailHelp{
+    color: gold;
+    font-size: small;
+    margin-left: 20px;
+}
+.form-control{
+    width: 20vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+    margin-left: 20px;
+}
+.form-label{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.form-text{
+    color: white;
+}
+.btn{
+    margin-top: 30px;
+margin-left: 20px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: gold;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: gold;
+    background-color: white;
+}
+/* About Us styling */
+.About-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.ab-inner{
+    width: 40%;
+    text-align: justify;
+    margin-top: 5rem;
+}
+#img2{
+    width: 35%;
+    height: 60vh;
+    margin: 5rem 3rem;
+    border-radius: 10px;
+}
+.icons{
+ width: auto;
+ height: auto;
+}
+#ab-icons{
+    width: 8%;
+    height: 8vh;
+    margin-top: 2.7rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.ab-title{
+    /* font-size: 20px; */
+    color: white;
+}
+#ab-hr{
+    color: red;
+    width: 30%;
+}
+.ab-txt1{
+    color: gold;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.ab-txt2{
+    color: lightgray;
+    margin-top: 10px;
+}
+/* ----Services----- */
+.s-hero{
+    width:100%;
+    height: 100vh;
+    background-color:rgb(0, 0, 0) ;
+}
+.s-title{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: white;
+}
+.s-container{
+    width: 100%;
+    height: 70vh;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    background-color: black;
+    display: flex;
+}
+.card-1{
+    width: 30%;
+    height: 50vh;
+    /* border: 1px solid white; */
+    background-color: rgb(31, 30, 30);
+    margin-left: 1rem; 
+    margin-top: 5%;
+    
+}
+.card-img1{
+    margin-top: 10px;
+    width: 100%;
+    height: 50vh;
+}
+#card-t1{
+    width:60%;
+    color: white;
+}
+#card-Li{
+    margin-top: 3vh;
+   width: 23%;
+}
+.card-2{
+    width: 30%;
+    height: 50vh;
+    /* border: 1px solid white; */
+    background-color: rgb(31, 30, 30);
+    margin-left: 3%;
+    margin-top: 5%;
+    
+}
+.card-img1{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+#card-t1{
+    width:60%;
+}
+#card-Li{
+    margin-top: 3vh;
+   width: 23%;
+}
+.card-3{
+    width: 30%;
+    height: 50vh;
+    /* border: 1px solid white; */
+    background-color: rgb(31, 30, 30);
+    margin-left: 3%;
+    margin-top: 5%;
+    
+}
+.card-img1{
+    margin-top: 10vh;
+    padding: auto;
+    width: 100px;
+    height: 100px;
+}
+#card-t1{
+    width:60%;
+}
+#card-Li{
+    margin-top: 3vh;
+   width: 23%;
+}

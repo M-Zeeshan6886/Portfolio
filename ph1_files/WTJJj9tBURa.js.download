@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("FbShortsUnifiedTofuVideoClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1894");c=b("FalcoLoggerInternal").create("fb_shorts_unified_tofu_video_click",a);e.exports=c},null,typeof self!=="undefined"&&self.document&&self.document.currentScript);
+__d("FbShortsUnifiedTofuVideoVpvFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1895");c=b("FalcoLoggerInternal").create("fb_shorts_unified_tofu_video_vpv",a);e.exports=c},null,typeof self!=="undefined"&&self.document&&self.document.currentScript);
